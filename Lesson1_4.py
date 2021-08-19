@@ -1,0 +1,5 @@
+i = int(input("Введите число: "))
+s = str(i)
+ls = list(map(int, s))
+r = max(ls)
+print(r)
